@@ -1,31 +1,36 @@
 <html>
-    <head>
-        <title>a javascript todo application</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    </head>
 
-<body class="text-center">  <!--heading-->
+<head>
+    <title>a javascript todo application</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body class="text-center">
+    <!--heading-->
     <div class="container p-1">
         <div class="row">
-            <div class="col-md-12 col-sm-6 col-6 bg-info rounded border-success text-white">
+            <div class="col-md-12 col-sm-12 col-12 bg-info rounded border-success text-white">
                 <h1>TO DO LIST</h1>
             </div>
         </div>
-        <div class="row p-5">   <!--input and submit-->
-            <div class="col-md-12 col-sm-6 col-6">
+        <div class="row p-5">
+            <!--input and submit-->
+            <div class="col-md-12 col-sm-12 col-12">
                 <div class="form">
                     <div class="input-group mb-3">
-                        <input type="text" id="inputField" class="form-control text-center" placeholder="WHAT ARE YOU GOING TO DO TODAY">
+                        <input type="text" id="inputField" class="form-control text-center"
+                            placeholder="WHAT ARE YOU GOING TO DO TODAY">
                         <div class="input-group-append">
-                          <button class="btn btn-info" id="info" type="submit">i</button>
+                            <button class="btn btn-info" id="info" type="submit">i</button>
                         </div>
-                      </div>
-                      <button type="button" id="addToDoContainer" class="btn btn-success">submit</button>
+                    </div>
+                    <button type="button" id="addToDoContainer" class="btn btn-success">submit</button>
                 </div>
             </div>
         </div>
-        <div class="row"> 
-            <div class="col-md-12 col-sm-6 col-6 jumbotron">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-12 jumbotron">
                 <div class="card text-center">
                     <div class="card-header bg-primary text-white rounded">LIST</div>
                     <div class="card-body">
@@ -38,17 +43,23 @@
                     </div>
                     <div class="card-footer text-muted">
                         <p id="date"></p>
+                    </div>
                 </div>
-              </div>
-            </div> 
+            </div>
         </div>
     </div>
-      
-    
-<script src="index.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 
 </body>
 
